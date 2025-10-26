@@ -1,0 +1,20 @@
+{
+  "name": "HackPet Dev",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  
+  "postCreateCommand": "bash setup.sh",
+  
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-vscode.cpptools",
+        "ms-vscode.cmake-tools",
+        "twxs.cmake"
+      ]
+    }
+  },
+  
+  "remoteUser": "dev"
+}
